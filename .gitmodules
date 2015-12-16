@@ -17,3 +17,6 @@
 [submodule ".build16-colorscheme/base16-mate-terminal"]
 	path = .build16-colorscheme/base16-mate-terminal
 	url = https://github.com/HashBang173/base16-mate-terminal
+[submodule ".vim/autoload/vim-pathogen"]
+	path = .vim/autoload/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
