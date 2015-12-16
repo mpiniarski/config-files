@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/marcin/Documents/STM32L/Drivers/CMSIS'
+let g:netrw_dirhist_2='/home/marcin/Documents/STM32L/Drivers/CMSIS/Include'
+let g:netrw_dirhist_3='/home/marcin/Documents/STM32L'
+let g:netrw_dirhist_4='/home/marcin/Documents'
+let g:netrw_dirhist_5='/home/marcin/Documents/STM32'
+let g:netrw_dirhist_6='/home/marcin/Documents/STM32/FirstProjectMyWay'
+let g:netrw_dirhist_7='/home/marcin/Documents/STM32/FirstProjectMyWay/Src'
+let g:netrw_dirhist_8='/home/marcin/Documents/STM32L/2.Blinking_leds_with_interrupt'
+let g:netrw_dirhist_9='/home/marcin/Documents/STM32L/2.Blinking_leds_with_interrupt/Src'
