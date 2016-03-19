@@ -17,13 +17,17 @@ source $ZSH/oh-my-zsh.sh
 # Aliases:  For a full list of active aliases, run `alias`.
 
 alias u='yaourt -Syua --noconfirm'
+alias y='yaourt'
+alias pac='sudo Pacman -S'
 alias drop='cd ~/Dropbox'
 alias st='cd ~/Dropbox/Studia'
 
 # Tmux starting
 if [ -z "$TMUX" ]; then
-    tmux attach || tmux new
+     tmux new
 fi  
+
+
 
 # User configuration
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/altera/quartus/bin:/home/marcin/Documents/Skrypty"

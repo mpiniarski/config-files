@@ -1,0 +1,39 @@
+" Search options: 
+set hlsearch
+set ignorecase
+set smartcase
+
+" Display line numbers on the left
+set number
+
+" Mappings :
+unmap <Up>
+unmap <Down>
+unmap <Left>
+unmap <Right>
+
+" easy window navigation
+ map <a-l> <c-w>l
+ map <a-j> <c-w>j
+ map <a-h> <c-w>h
+ map <a-k> <c-w>k
+ map <c-h> gT
+ map <c-l> gt
+ unmap <c-j>
+ unmap <c-k>
+" also in input mode
+ imap <a-l> <ESC><c-w>l
+ imap <a-j> <ESC><c-w>j
+ imap <a-h> <ESC><c-w>h
+ imap <a-k> <ESC><c-w>k
+ imap <c-h> <ESC>gT
+ imap <c-l> <ESC>gt
+
+" Faster scrolling
+ nmap J 5j
+ nmap K 5k
+ xmap J 5j
+ xmap K 5k
+
+" Disable higlihting
+" map <leader>l :nohl<cr>
